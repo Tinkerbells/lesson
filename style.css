@@ -1,0 +1,34 @@
+main {
+  display: grid;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  place-items: center;
+}
+
+button {
+  font-size: 25px;
+  cursor: pointer;
+  width: 500px;
+  height: 50px;
+  background-color: pink;
+}
+
+.container {
+  width: 500px;
+  height: 500px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+h2 {
+  height: 35px;
+  width: 100%;
+  border: 1px solid black;
+  font-size: 20px;
+  text-align: center;
+}
